@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <style>
+        /* body{
+            text-align: center;
+        } */
+        form{
+            margin-left: 550px;
+            margin-right: 550px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <h1>Student Form</h1>
+            <label>Name :</label>
+            <input type="text" placeholder="enter name" required/>
+            <br><br>
+            <label>Date of Birth :</label>
+            <input type="date" required/><br><br>
+            <label>Age :</label>
+            <input type="number" placeholder="Enter Your Age"/>
+            <br><br>
+            <label>College Name :</label>
+            <input type="text" placeholder="enter your college name"/><br><br>
+            <label>Phone Number :</label>
+            <input type="numbers" placeholder="enter mobile number"/><br><br>
+            <fieldset style="width: 30%">
+              <legend>Gender</legend>
+              <input type="radio" id="male" name="gender" value="male"/>
+              <label>male</label><br>
+              <input type="radio" id="female" name="gender" value="female"/>
+              <label>female</label><br>
+              <input type="radio" id="other" name="gender" value="other"/>
+              <label>other</label><br>
+            </fieldset><br>
+            <fieldset style="width: 30%">
+                <legend>skills</legend>
+                <input type="checkbox" id="html" name="skills" value="html"/>
+                <label>html</label><br>
+                <input type="checkbox" id="css" name="skills" value="css"/>
+                <label>css</label><br>
+                <input type="checkbox" id="js" name="skills" value="js"/>
+                <label>js</label><br>
+                <input type="checkbox" id="java" name="skills" value="java"/>
+                <label>java</label>
+            </fieldset><br>
+            <!-- drop down -->
+            <label>Select Role :</label>
+            <select>
+                <option value="Student">Student</option>
+                <option value="Employee">Employee</option>
+            </select><br><br>
+            <label>Resume :</label>
+            <input type="file" id="resume" accept=".pdf,.docx,.doc" name="resume">
+            <br><br>
+            <label>Gmail :</label>
+            <input type="text" placeholder="Enter Your Email">
+            <br><br>
+            <label>password</label>
+            <input type="text">
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </div> 
+</body>
+</html>
